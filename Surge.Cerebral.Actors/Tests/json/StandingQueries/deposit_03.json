@@ -1,0 +1,5 @@
+﻿{
+	"StandingQueryId":"deposit_03",
+	"Description":"3 Deposits >= 100 in the last 1 minutes",
+	"EplStatement":"select sum(amount) as totalamount, userid from deposits.win:time(1 min) group by userid, amount having amount >= 100 and count(*) >= 3"
+}

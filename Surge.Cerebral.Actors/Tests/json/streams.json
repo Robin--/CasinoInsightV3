@@ -1,0 +1,4 @@
+﻿{ "eventtype" :"deposits", "map" : {	"userid": "long", "accountnumber": "string",	"transactiondate": "datetime",	"amount": "long",	"eventtype" : "string" , "eventtime": "datetime"} }
+{ "eventtype" :"logins", "map" : {	"userid": "long", "accountnumber": "string",	"username": "string", "logondate": "datetime",	"balance" : "long",	"eventtype" : "string", "eventtime": "datetime" }}
+{ "eventtype" :"payouts", "map" : {	"userid": "long", "accountnumber": "string",	"transactiondate": "datetime",	"payout" : "long",	"balance" : "long",	"eventtype" : "string", "eventtime": "datetime"} }
+{ "eventtype" :"wagers", "map" : {	"userid": "long", "accountnumber": "string",	"transactiondate": "datetime",	"wageramount" : "long",	"balance" : "long",	"eventtype" : "string", "eventtime": "datetime"} }

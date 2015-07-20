@@ -1,0 +1,5 @@
+﻿{
+	"StandingQueryId":"deposit_02",
+	"Description":"Deposits greater than 500",
+	"EplStatement":"select * from deposits(amount > 500)"
+}

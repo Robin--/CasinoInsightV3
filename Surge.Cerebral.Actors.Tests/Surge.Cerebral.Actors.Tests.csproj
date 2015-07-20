@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF01A8DD-DC74-4E01-85CC-8F98C07C176D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Surge.Cerebral.Actors.Tests</RootNamespace>
+    <AssemblyName>Surge.Cerebral.Actors.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Surge.Cerebral.Actors\Surge.Cerebral.Actors.csproj">
+      <Project>{6db67606-a306-4809-8b4f-81eca85ddc96}</Project>
+      <Name>Surge.Cerebral.Actors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Surge.Cerebral\Surge.Cerebral.csproj">
+      <Project>{568adeff-0f43-4862-88b4-810e65d41e86}</Project>
+      <Name>Surge.Cerebral</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Surge.Core\Surge.Core.csproj">
+      <Project>{cbaeeaab-cb16-4d78-95c7-ead68ad1c781}</Project>
+      <Name>Surge.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Surge.Messages\Surge.Messages.csproj">
+      <Project>{12e5265a-8b50-4e63-a214-94a4316a7cb8}</Project>
+      <Name>Surge.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Surge.Models\Surge.Models.csproj">
+      <Project>{ffcac3ef-44d4-4e9e-bc54-ceff327d4a42}</Project>
+      <Name>Surge.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+﻿{	"userid": 1234,	"accountnumber": "acc1234",	"username": "user1234",	"logondate": "2015-06-02T08:00:00.000Z",	"balance" : 200, "eventtype" : "logins", "eventtime": "2015-06-02T08:00:00.000Z" }
+{	"userid": 1234,	"accountnumber": "acc1234",	"transactiondate": "2015-06-02T08:00:43.511Z",	"amount": 50,	"eventtype":"deposits", "eventtime": "2015-06-02T08:01:00.000Z" }
+{	"userid": 1234,	"accountnumber": "acc1234",	"transactiondate": "2015-06-02T08:01:43.511Z",	"amount": 100,	"eventtype":"deposits", "eventtime": "2015-06-02T08:02:00.000Z" }
+{	"userid": 1234,	"accountnumber": "acc1234",	"transactiondate": "2015-06-02T08:02:43.511Z",	"amount": 200,	"eventtype":"deposits", "eventtime": "2015-06-02T08:03:00.000Z" }
+{	"userid": 1234,	"accountnumber": "acc1234",	"transactiondate": "2015-06-02T08:03:43.511Z",	"amount": 20,	"eventtype":"deposits", "eventtime": "2015-06-02T08:04:00.000Z" }
+{	"userid": 1234,	"accountnumber": "acc1234",	"transactiondate": "2015-06-02T08:03:43.511Z",	"amount": 30,	"eventtype":"deposits", "eventtime": "2015-06-02T08:04:10.000Z" }
+{	"userid": 1234,	"accountnumber": "acc1234",	"transactiondate": "2015-06-02T08:03:43.511Z",	"amount": 200,	"eventtype":"deposits", "eventtime": "2015-06-02T08:04:30.000Z" }
+{	"userid": 1234,	"accountnumber": "acc1234",	"transactiondate": "2015-06-23T18:03:43.511Z",	"amount": 100,	"eventtype":"deposits", "eventtime": "2015-06-02T08:05:30.000Z" }
+{	"userid": 2222,	"accountnumber": "acc2222",	"transactiondate": "2015-06-02T08:03:43.511Z",	"amount": 600,	"eventtype":"deposits", "eventtime": "2015-06-02T08:05:30.000Z" }

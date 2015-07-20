@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surge.Cerebral.Actors", "Surge.Cerebral.Actors\Surge.Cerebral.Actors.csproj", "{6DB67606-A306-4809-8B4F-81ECA85DDC96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surge.Cerebral.Neuron", "Surge.Cerebral.Neuron\Surge.Cerebral.Neuron.csproj", "{128C9267-47EC-4DFC-996C-307CD38FA8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surge.Cerebral", "Surge.Cerebral\Surge.Cerebral.csproj", "{568ADEFF-0F43-4862-88B4-810E65D41E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surge.Models", "Surge.Models\Surge.Models.csproj", "{FFCAC3EF-44D4-4E9E-BC54-CEFF327D4A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surge.Messages", "Surge.Messages\Surge.Messages.csproj", "{12E5265A-8B50-4E63-A214-94A4316A7CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surge.Core", "Surge.Core\Surge.Core.csproj", "{CBAEEAAB-CB16-4D78-95C7-EAD68AD1C781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surge.Cerebral.Actors.Tests", "Surge.Cerebral.Actors.Tests\Surge.Cerebral.Actors.Tests.csproj", "{AF01A8DD-DC74-4E01-85CC-8F98C07C176D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DB67606-A306-4809-8B4F-81ECA85DDC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB67606-A306-4809-8B4F-81ECA85DDC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB67606-A306-4809-8B4F-81ECA85DDC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB67606-A306-4809-8B4F-81ECA85DDC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128C9267-47EC-4DFC-996C-307CD38FA8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128C9267-47EC-4DFC-996C-307CD38FA8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128C9267-47EC-4DFC-996C-307CD38FA8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128C9267-47EC-4DFC-996C-307CD38FA8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568ADEFF-0F43-4862-88B4-810E65D41E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568ADEFF-0F43-4862-88B4-810E65D41E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568ADEFF-0F43-4862-88B4-810E65D41E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568ADEFF-0F43-4862-88B4-810E65D41E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCAC3EF-44D4-4E9E-BC54-CEFF327D4A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCAC3EF-44D4-4E9E-BC54-CEFF327D4A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCAC3EF-44D4-4E9E-BC54-CEFF327D4A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCAC3EF-44D4-4E9E-BC54-CEFF327D4A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E5265A-8B50-4E63-A214-94A4316A7CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E5265A-8B50-4E63-A214-94A4316A7CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E5265A-8B50-4E63-A214-94A4316A7CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E5265A-8B50-4E63-A214-94A4316A7CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAEEAAB-CB16-4D78-95C7-EAD68AD1C781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAEEAAB-CB16-4D78-95C7-EAD68AD1C781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAEEAAB-CB16-4D78-95C7-EAD68AD1C781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAEEAAB-CB16-4D78-95C7-EAD68AD1C781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF01A8DD-DC74-4E01-85CC-8F98C07C176D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF01A8DD-DC74-4E01-85CC-8F98C07C176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF01A8DD-DC74-4E01-85CC-8F98C07C176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF01A8DD-DC74-4E01-85CC-8F98C07C176D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
